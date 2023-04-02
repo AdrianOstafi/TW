@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content = "width = device - width , initial - scale = 1.0">
+  <title>LogIn</title>
+  <link rel = "stylesheet" href = "RegisterStyle.css">
+</head>
+<body>
+<selection>
+  <div class = "Class" >
+    <div class = "TitleClass">  Footwear Smart Assistant  </div>
+    <div class = "RegisterClass" >
+      <h1>Register </h1>
+      <form action = "connect.php" method="POST" id = "register_form" >
+        <div class = "control" >
+          <label for = "FirstName" > First Name </label>
+          <input type ="text" name = "FirstName" id = "FirstName">
+        </div>
+        <div class = "control" >
+          <label for = "LastName" > Last Name </label>
+          <input type = "text" name = "LastName" id = "LastName" >
+        </div>
+        <div class = "control" >
+          <label for = "ShoeSize" > Shoesize </label>
+          <input type = "text" name = "ShoeSize" id = "ShoeSize" >
+        </div>
+        <div class = "control" >
+          <label for = "EmailAddress" > Email Address </label>
+          <input type = "text" name = "EmailAddress" id = "EmailAddress" >
+        </div>
+        <div class = "control" >
+          <label for="EmailAddress">Gender</label>
+          <div>
+            <label for="male" class="control"
+            ><input
+                    type="radio"
+                    name="Gender"
+                    value="m"
+                    id="Male"
+            />Male</label>
+          </div>
+          <label for="female" class="control"
+          ><input
+                  type="radio"
+                  name="Gender"
+                  value="f"
+                  id="female"
+          />Female</label
+          >
+
+        </div>
+        <div class = "control" >
+          <input type = "submit" value = "Register" >
+        </div>
+      </form>
+    </div>
+  </div>
+</selection>
+
+</body>
+</html>

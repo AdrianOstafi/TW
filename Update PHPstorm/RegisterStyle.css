@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.Class
+{
+    width: 100% ;
+    height: 100vh ;
+    background-image: url(wallpaper.png) ;
+    background-position: center;
+    background-size: cover ;
+    padding-left: 2% ;
+    padding-right: 2% ;
+    box-sizing: border-box ;
+}
+
+.TitleClass
+{
+    height: 2% ;
+    text-align: right ;
+    font-size: 50px ;
+    color: peachpuff ;
+    font-family: 'Helvetica', sans-serif ;
+}
+
+.RegisterClass
+{
+    font-size: 15px ;
+    color: aliceblue ;
+}
+
+section
+{
+    width: 100% ;
+    height: 100vh ;
+    background-image: url(wallpaper.png) ;
+    background-position: center;
+    background-size: cover ;
+    padding-left: 0px ;
+    padding-right: 2% ;
+}
+
+.RegisterClass{
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50%) ;
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7) , rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ;
+    width: 380px ;
+    padding: 50px 30px ;
+    border-radius: 20px ;
+    box-shadow: 7px 7px 60px #000 ;
+}
+
+h1
+{
+    text-transform: uppercase ;
+    font-size: 2em ;
+    text-align: center ;
+    margin-bottom: 2em ;
+}
+
+.control input
+{
+    width: 100% ;
+    display: block ;
+    padding: 10px ;
+    color: black ;
+    border: none ;
+    outline: none ;
+    margin: 1em 0 ;
+}
+
+.control input[type = "submit"]
+{
+    background: peachpuff ;
+    color: aqua ;
+    text-transform: uppercase ;
+    font-size: 1.2em ;
+    opacity: .8;
+    transition: opacity .3s ease ;
+}
+
+.control input[type = "submit"]:hover
+{
+    opacity: 1 ;
+}
+
+.link
+{
+    text-align: center ;
+}
+
+.control select {
+    -webkit-appearance: none ;
+    appearance: none ;
+    border: 1px solid #d5dbd9 ;
+    width: 100% ;
+    height: 100% ;
+    padding: 8px 10px ;
+    border-radius: 3px ;
+}
+
+.control select:before {
+    content: "" ;
+    position: absolute ;
+    top: 0 ;
+    right: 0 ;
+    border: 8px solid ;
+    border-color: peachpuff transparent transparent transparent;
+}
+
+
+
